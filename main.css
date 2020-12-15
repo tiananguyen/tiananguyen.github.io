@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+}
+a {
+    color: #008255;
+}
+.navbar {
+    clear:both;
+    overflow:auto;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+li {
+    float: right;
+    display: inline-block;
+}
+li a {
+    color: #008255;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    float: left;
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 25px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+}
+.header {
+    height: 100%;
+    width: 100%;
+    background-color: #E3FAF2;
+    background-size: cover;  
+    padding-top: 15vw;
+    padding-bottom: 18vw;
+    position: relative;
+    font-size: 2em;
+}
+.header h2, h1 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.header h2 span{
+    color: #008255;
+}
+.header2 {
+    height: 100%;
+    width: 100%;
+    background-color: #E3FAF2;
+    background-size: cover;  
+    padding-top: 5vw;
+    padding-bottom: 8vw;
+    position: relative;
+    font-size: 2em;
+}
+.header2 h3, h1 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.header2 p span{
+    color: #008255;
+}
+.type {
+    padding-top: 10px;
+}
+
+/* main.html */
+.intro {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.intro h1, p, h2 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    font-size: 1.1sem;
+}
+.intro mark.color-emph {
+    background-color: #E3FAF2;
+}
+
+/* experience.html */
+.accord {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.accord p, h3 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3px;
+}
+.accord mark.color-emph {
+    background-color: #E3FAF2;
+}
+details summary{
+    display: block;
+    cursor: default;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid;
+    border-bottom-color: #008255;
+    user-select: none;
+    font-size: 1.2em;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+
+}
+details[open] .inner {
+    animation-name: slideDown;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    padding: 5px;
+}
+deatils[open] summary{
+    color: #008255;
+}
