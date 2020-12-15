@@ -142,3 +142,15 @@ details[open] .inner {
 deatils[open] summary{
     color: #008255;
 }
+
+/* empty state */
+.empty {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.empty img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
